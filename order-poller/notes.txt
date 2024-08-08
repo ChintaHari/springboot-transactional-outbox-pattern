@@ -1,0 +1,7 @@
+# How to start kafka in windows:
+
+# First start the Zookeper 
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+# Now start the kafka server
+.\bin\windows\kafka-server-start.bat .\config\server.properties
